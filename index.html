@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <title>my</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/extra.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+</head>
+<body class="bg-dark cot w-100 ">
+
+    <button id="data-btn" onclick="opdataroom()" class="btn bg-light position-absolute text-capitalize m-1"><i class="fa fa-bars" aria-hidden="true"></i><br>data room</button>
+    <button id="create" onclick="op()" class="btn bg-light w-25">+ create</button>
+    
+    <div id="main" class="bg-light p-2">
+    
+        <button class="bt btn text-center" onclick="cl()" type="button">&times;</button>
+        <span class="toptxt text-bold text-capitalize text-center">create acount</span>
+
+        <div class="row mt-4">
+            <div class="col-md-12">
+                <input id="fname" class="entrymy form-control m-2 text-capitalize" type="text" placeholder="frist name">
+                <input id="lname" class="entrymy form-control m-2 text-capitalize" type="text" placeholder="last name">
+                <input id="email" class="entrymy form-control m-2 " type="email" placeholder="Email">
+                <input id="password" class="entrymy form-control m-2" type="password" placeholder="Password">
+                <select id="optioon" class="btn m-2 text-capitalize">
+                    <option>male</option>
+                    <option>female</option>
+                </select>
+                <br>
+                <input class=" m-2" type="radio"> I accept the <span class="text-success">terms of use & privacy policy.</span>
+                <br>
+                <button onclick="submitt()" class="entrymy btn m-2 bg-success text-capitalize text-light" type="button">submit</button>
+                
+            </div>
+        </div>
+    </div>
+    
+    <div id="dataroom" class="dataroom bg-light pl-3 ">
+        <div class="row">
+            <button class="bt btn text-center mb-2 m-1" onclick="cldataroom()" type="button">&times;</button>
+            <h4 class="col-md-11 text-center ml-4 m-1 p-2 text-capitalize  bg-dark">data room</h4>
+
+        </div>
+
+        <div class="row p-0">
+            <div id="name" class="col-md-3 w-100 p-0"><div class="data-cot p-0 bg-dark text-capitalize text-light text-bold text-center">name</div></div>
+            <div class="col-md-3 w-100 p-0"><div class="data-cot p-0 bg-dark text-capitalize text-light text-bold text-center">email</div></div>
+            <div class="col-md-3 w-100 p-0"><div class="data-cot p-0 bg-dark text-capitalize text-light text-bold text-center">password</div></div>
+            <div class="col-md-3 w-100 p-0"><div class="data-cot p-0 bg-dark text-capitalize text-light text-bold text-center">gender</div></div>
+        </div>
+
+    </div>
+    <div id="alt" class="alert alert-danger" role="alert">
+      Go to hell & create account & then come!
+    </div>
+
+    </div>
+
+    <script src="js/extra.js"></script>
+
+</body>
+</html>

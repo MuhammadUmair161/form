@@ -1,0 +1,61 @@
+*{
+    box-sizing: border-box;
+}
+.cot{
+    height: 100vh;
+}
+#main{
+    min-height: 60vh;
+    min-width: 30%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: none;
+}
+
+#create{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.bt{
+    
+    color: rgba(225, 18, 18, 0.789);
+    font-size: 1.2em;
+    text-decoration: none;
+}
+
+.bt:hover{
+    background-color: rgba(225, 18, 18, 0.789);
+    color: #fff;
+}
+.entrymy{
+    width: 95%;
+}
+.toptxt{
+    font-size: 1.2em;
+    margin-left: 22%;
+}
+
+.dataroom{
+    min-height: 100%;
+    min-width: 100%;
+    overflow: hidden;
+    position: absolute;
+    display: none;
+}
+
+#data-btn{
+    right: 0;
+}
+
+.data-cot{
+    border-right: 1px solid #fff;
+}
+
+#alt{
+    display: none;
+}
